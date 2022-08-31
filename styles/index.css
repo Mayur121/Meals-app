@@ -6,7 +6,7 @@
 
 /* set background color */
 body {
-  background-image: linear-gradient(to top right, #ffffff, #ffffff);
+  background: white;
 }
 
 /* Navbar */
@@ -104,7 +104,7 @@ body {
   /* margin: 200px; */
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 /* styling the list items */
