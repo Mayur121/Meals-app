@@ -1,0 +1,47 @@
+<html>
+
+<head>
+  <title>Meals App</title>
+  <meta name="viewport" content="width=device-width" ,initial-scale="1">
+
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+  <!-- external stylesheet -->
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <div class="nav">
+    <div class="search-container">
+      <input id="searchBar" placeholder="Search" />
+      <button id="search-btn">Search</button>
+    </div>
+  </div>
+
+  <!-- main content -->
+  <div id="main-div">
+
+    <!-- meals tab -->
+    <div class="tab">
+      <a href="index.html" class="meal-tab">Meals</a>
+    </div>
+
+    <!-- favourite tab -->
+    <div class="tab">
+      <a href="fav.html" class="fav-tab">Favourites</a>
+    </div>
+
+    <!-- list of meals -->
+    <ul id="meals-list">
+    </ul>
+  </div>
+
+  <!-- script -->
+  <script src="scripts/index.js"></script>
+</body>
+
+</html>

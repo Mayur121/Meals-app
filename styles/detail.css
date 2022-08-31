@@ -1,0 +1,60 @@
+/* style the meals & favourites tabs */
+.tab {
+  display: block;
+  width: 250px;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 2%;
+  background-image: linear-gradient(to top right, #074583, #fd4949);
+  margin-bottom: 20px;
+}
+
+/* styling meal tab */
+.meal-tab {
+  text-decoration: none;
+  color: white;
+}
+
+/* styling the main tab */
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* style the div id="pic" */
+#pic {
+  width: 500px;
+  height: 500px;
+}
+
+/* style the image */
+#pic img {
+  width: 400px;
+  height: 400px;
+  padding: 50px;
+}
+
+/* style the info class */
+.info {
+  margin-left: 25%;
+}
+
+/* style the name of meal */
+#name {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+/* style the category of the meal */
+#category {
+  font-size: 2rem;
+}
+
+/* style the instruction */
+#instruction {
+  margin-left: 5%;
+  margin-top: 5%;
+  font-size: 1.2rem;
+}

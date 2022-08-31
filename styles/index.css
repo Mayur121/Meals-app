@@ -1,0 +1,227 @@
+/* Remove default padding & margin */
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/* set background color */
+body {
+  background-image: linear-gradient(to top right, #ffffff, #ffffff);
+}
+
+/* Navbar */
+.nav {
+  /* position: fixed; */
+  background: #3e6ec9;
+  height: 70px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling search container */
+.search-container {
+  width: 40%;
+  position: relative;
+}
+
+/* styling Search bar */
+.search-container input {
+  height: 50px;
+  width: 80%;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  border: none;
+  font-size: 16px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+/* Search button */
+#search-btn {
+  background: #ed3258;
+  height: 50px;
+  width: 65px;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  position: relative;
+}
+
+/* hover effect */
+#search-btn:hover {
+  cursor: pointer;
+  background: #fd4949;
+}
+
+/* set background */
+.main-div {
+  background-color: #f1f1f1;
+}
+
+/* styling meals & favourites tab  */
+.tab {
+  display: inline-block;
+  width: 150px;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 5% 0 5% 10%;
+  background: #fd4949;
+  margin-bottom: 50px;
+}
+
+/* meal tab */
+.meal-tab {
+  text-decoration: none;
+  color: white;
+}
+
+/* fav tab */
+.fav-tab {
+  text-decoration: none;
+  color: white;
+}
+
+/* styling favs-tab */
+.favs-tab {
+  display: inline-block;
+  width: 250px;
+  font-size: 30px;
+  text-align: center;
+  margin: 2% 0 5% 5%;
+  background: #fd4949;
+}
+
+/* style meals list */
+#meals-list {
+  /* margin: 200px; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+/* styling the list items */
+li {
+  list-style: none;
+  padding: 0px 20px;
+  width: 25%;
+}
+
+/* style the recipe name */
+.meal h2 {
+  /* text-align: center; */
+  margin: 0 0 20px 20px;
+  cursor: pointer;
+}
+
+/* style the image */
+li img {
+  margin: 0 0 20px 20px;
+  height: 270px;
+  width: 270px;
+  border: 1px solid rgb(5, 5, 5);
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px 4px #272323;
+  transition: all ease-in-out 0.1s;
+}
+
+/* hover effect on image */
+li img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  filter: brightness(115%) contrast(115%);
+}
+
+/* style the meal name */
+.meal-name {
+  display: flex;
+  color: #11232e;
+  margin-left: 35px;
+}
+
+/* style add to heart button */
+.meal-name i {
+  font-size: 1.5rem;
+  margin: 0px 5px 20px 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+/* favourite button */
+.fas {
+  /* top: 10px; */
+  color: rgb(248, 30, 30);
+  position: relative;
+}
+
+/* Media queries */
+@media only screen and (max-width: 600px) {
+  #meals-list {
+    margin: 0px;
+  }
+  li {
+    margin-right: 100px;
+  }
+
+  li img {
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: 30px;
+  }
+
+  .search-container {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #meals-list {
+    margin: 0px;
+  }
+  li {
+    margin-right: 100px;
+  }
+
+  li img {
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: 30px;
+  }
+
+  .search-container {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #meals-list {
+    margin: 0px;
+  }
+  li {
+    margin-right: 50px;
+  }
+
+  li img {
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: 50px;
+  }
+
+  .search-container {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    max-width: 500px;
+  }
+}
