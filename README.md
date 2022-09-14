@@ -25,3 +25,7 @@ App preview
 ![Screenshot (39)](https://user-images.githubusercontent.com/29745930/187720725-7e7bc96c-9bfd-4dab-8dd4-4b29310b6ba8.png)
 
 ![Screenshot (40)](https://user-images.githubusercontent.com/29745930/187720757-86944593-1711-490d-a8f8-7949508cc089.png)
+
+
+![Screenshot (35)](https://user-images.githubusercontent.com/29745930/190174384-181a44fd-de41-4f2d-8dc5-c847839380fb.png)
+
